@@ -1,0 +1,31 @@
+.contact {
+    padding-top: 50px;
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.166) -8.54%, rgba(255, 244, 251, 0.2) 100%);
+}
+
+.contact__btn {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #8643DC;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.contact__input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #A8A0B0;
+    margin-bottom: 45px;
+    padding: 17px;
+}
+
+.btn-imgs {
+    display: flex;
+    justify-content: space-between;
+}

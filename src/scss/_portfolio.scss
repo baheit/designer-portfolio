@@ -1,0 +1,46 @@
+.portfolio {
+    background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%);
+    padding-top: 50px;
+    padding-bottom: 68px;
+    &__title {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+
+        color: #25202F;
+        margin-bottom: 30px;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__link {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000;
+        text-transform: capitalize;
+
+        &:active {
+            transform: scale(1.1);
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+}
+
+
+
+.portfolio .tl {
+    display: flex;
+    justify-content: space-between;
+}

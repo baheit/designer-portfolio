@@ -1,0 +1,11 @@
+.services {
+    padding-bottom: 100px;
+    .wrapper {
+        &__title {
+            display: flex;
+            img {
+                margin-right: 20px;
+            }
+        }
+    }
+}

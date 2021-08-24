@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    position: absolute;
+    padding-top: 60px;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+
+        &__logo {
+            margin-right: 108px;
+        }
+
+        &__nav {
+            display: flex;
+        }
+
+        .nav__item {
+            margin-right: 20px;
+            list-style: none;
+
+            &:active {
+                transform: scale(1.1);
+            }
+
+            .nav__link {
+                text-decoration: none;
+                text-transform: capitalize;
+                color: rgb(100, 100, 100);
+                font-size: large;
+                font-weight: bold;
+                cursor: pointer;
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+}

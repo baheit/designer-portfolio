@@ -1,0 +1,52 @@
+.home {
+    padding-top: 46px;
+    .row {
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+        color: #25202F;
+      
+        &:first-child {
+              padding-top: 182px;
+        }
+    }
+
+    &__title {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 120%;
+        color: #25202F;
+        margin-top: 18px;
+        margin-bottom: 11px;
+    }
+
+    &__btn {
+        background: #8643DC;
+        border-radius: 100px;
+        border: none;
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 50px;
+        padding: 10px 50px;
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:active {
+            transform: scale(1.1);
+        }
+    }
+}
